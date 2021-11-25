@@ -3,6 +3,7 @@ package org.javalite.activejdbc;
 import org.javalite.activejdbc.connection_config.DBConfiguration;
 import org.javalite.activejdbc.models.Book;
 import org.javalite.activejdbc.models.Library;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.util.List;
@@ -10,6 +11,7 @@ import java.util.List;
 import static org.javalite.test.jspec.JSpec.a;
 import static org.javalite.test.jspec.JSpec.the;
 
+@Ignore
 public class StaticMetadataSpec {
 
     @Test
